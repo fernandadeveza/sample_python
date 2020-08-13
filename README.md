@@ -1,8 +1,9 @@
 # sample_python
-Três técnicas de amostragem utilizando python e calculo simples de amostra
+Três técnicas de amostragem utilizando python e cálculo simples de amostra
 
-# calc_sample:
-  Calcula a amostra conforme calculo básico de amostra
+## Funções:
+### calc_sample:
+  Calcula a amostra conforme cálculo básico de amostra
    - n. = 1/(E.)²
    - n = (N*n.)/(N+n.)
    
@@ -12,10 +13,10 @@ Três técnicas de amostragem utilizando python e calculo simples de amostra
   - E. = erro amostral tolerável
   - n. = primeira aproximação do tamanho da amostra
     
-# simple_random_sample:
-  Amostra simples, retorna x elementos, onde x é sua amostra.
+### simple_random_sample:
+  Amostra simples, retorna elemento x, onde x é sua amostra.
   
-# stratified_sample: 
+### stratified_sample: 
  Consiste em olhar a população através de grupos;
  
  Cada individuo pode fazer parte de um unico grupo;
@@ -23,6 +24,8 @@ Três técnicas de amostragem utilizando python e calculo simples de amostra
  Antes disso, precisamos importar o que é necessário para a amostra estratificada:
   - from sklearn.model_selection import train_test_split
   
-# systematic_sample
+### systematic_sample
   Geramos uma semente aleatoriamente e através dessa semente, os elementos são escolhidos sistematicamentes;
   Antes disso, precisamos importar a Numpy.
+
+Esse exemplo foi fruto de um artigo do Minerando Dados: https://minerandodados.com.br/tres-tecnicas-de-amostragem-de-dados-utilizando-python/
